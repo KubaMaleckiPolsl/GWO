@@ -8,7 +8,7 @@ namespace GWO
         public string Name { get; set; } = "Grey_Wolf_Optimizer";
         public double[] XBest { get; set; }
         public double FBest { get; set; }
-        public int dim { get; set; } = 3;
+        public int dim { get; set; } = 2;
         public int NumberOfEvaluationFitnessFunction { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         //Część parametryczna
